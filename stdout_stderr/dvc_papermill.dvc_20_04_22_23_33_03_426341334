@@ -1,0 +1,33 @@
+WARNING: DVC-file 'dvc/papermill.dvc' changed.
+WARNING: Stage 'dvc/papermill.dvc' changed.
+Running command:
+	papermill draw_samples.ipynb draw_samples_output.ipynb --log-output -k python -p mean 10 -p std 2 -p num_of_samples 100 -p distribution normal
+Input Notebook:  draw_samples.ipynb
+Output Notebook: draw_samples_output.ipynb
+Generating grammar tables from /home/cc/.local/lib/python3.6/site-packages/blib2to3/Grammar.txt
+Writing grammar tables to /home/cc/.cache/black/19.10b0/Grammar3.6.9.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/home/cc/.cache/black/19.10b0/tmp3sv3xdcs'
+Generating grammar tables from /home/cc/.local/lib/python3.6/site-packages/blib2to3/PatternGrammar.txt
+Writing grammar tables to /home/cc/.cache/black/19.10b0/PatternGrammar3.6.9.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/home/cc/.cache/black/19.10b0/tmpm1lir7c4'
+Executing notebook with kernel: python
+Executing Cell 1---------------------------------------
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+<matplotlib.collections.PathCollection at 0x7f6cc2b66b38>
+<Figure size 432x288 with 1 Axes>
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Ending Cell 7------------------------------------------
+
+To track the changes with git, run:
+
+	git add dvc/papermill.dvc .gitignore

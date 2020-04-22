@@ -1,0 +1,5 @@
+[core]
+    remote = dvc_connection
+['remote "dvc_connection"']
+    url = ssh://s0000001@dt1.f4.htw-berlin.de:/mnt/md0/s0000001/github.com/mastaer/DVC-CC-Sample.git
+    ask_password = true

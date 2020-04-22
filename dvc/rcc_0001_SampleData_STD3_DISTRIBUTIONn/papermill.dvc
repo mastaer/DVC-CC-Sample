@@ -1,0 +1,17 @@
+cmd: papermill draw_samples.ipynb draw_samples_output.ipynb --log-output -k python
+  -p mean 10 -p std 3 -p num_of_samples 100
+  -p distribution normal
+wdir: ..
+deps:
+- path: draw_samples.ipynb
+outs:
+- path: draw_samples_output.ipynb
+  cache: true
+  metric: false
+  persist: false
+- path: samples.npy
+  cache: true
+  metric: false
+  persist: false
+
+

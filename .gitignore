@@ -1,2 +1,3 @@
 .ipynb*
 samples.npy
+/draw_samples_output.ipynb
